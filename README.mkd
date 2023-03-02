@@ -1,26 +1,7 @@
-## New Interfaces for Jewish Texts
-
-[Sefaria](https://www.sefaria.org) is creating interfaces, apps (like a source sheet builder), and infrastructure (like an API and a structured dataset) for Jewish texts and textual learning.
-
-You can find outputs of our entire database in [Sefaria-Export](https://github.com/Sefaria/Sefaria-Export).
-
-Interested developers should join the [sefaria-dev mailing list](https://groups.google.com/forum/#!forum/sefaria-dev).
-
-For general discussion questions about the project, please email [hello@sefaria.org](mailto:hello@sefaria.org).
-
-If you find textual problems in our library, please email [corrections@sefaria.org](mailto:corrections@sefaria.org).
-
-You can post bugs or request/discuss features on [GitHub Issues](https://github.com/sefaria/Sefaria-Project/issues?direction=desc&page=1&sort=created&state=open). Tackling an issue marked as a "Starter Project" is a good way to sink your teeth into Sefaria.
-
-If you're interested in working on a project you see listed here, please email the [sefaria-dev mailing list](https://groups.google.com/forum/#!forum/sefaria-dev).
-
-
 ***
 
 ### Getting Started
-First clone the Sefaria-Project repository to a directory on your computer, then follow the instructions:
-
-*Note: if you are a developer that might want to contribute code to Sefaria, we suggest first making a fork of this repository by clicking the "Fork" button above when logged in to GitHub.*
+First clone the repository to a directory on your computer, then follow the instructions:
 
 *Note for macOS users - Install `Homebrew`:*
 
@@ -56,7 +37,7 @@ Instructions [here](https://github.com/pyenv/pyenv-virtualenv#installing-with-ho
 
 Create [a pyenv virtualenv](https://github.com/pyenv/pyenv-virtualenv#using-pyenv-virtualenv-with-pyenv). 
 
-In your Sefaria directory, run `pyenv local [venv-name]`. This will create a `.python-version` and write the version name provided to the file (e.g. `3.7.5/envs/sefaria-venv`). This should serve to activate the virtualenv whenever you are in the Sefaria directory. 
+In your directory, run `pyenv local [venv-name]`. This will create a `.python-version` and write the version name provided to the file (e.g. `3.7.5/envs/sefaria-venv`). This should serve to activate the virtualenv whenever you are in the Sefaria directory. 
 
 *Note: If, after following the installation and configuration instructions, running `python -V` still displays the system version, you may have to manually add the shims directory to your path.* If that does not correct the issue, you should check your bash init file (.zshrc, .bashrc, or the like) for the line `eval "$(pyenv init -)"` (not inside an if statement) and change it to `eval "$(pyenv init --path)"` and restart the shell.
 
